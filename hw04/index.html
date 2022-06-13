@@ -17,7 +17,10 @@
 			font-weight: 900;
 		}
 		.poems {
-			font-family: 'cjkFonts 全瀨體'; /* Strong Baseline 字型檔 */
+			font-family: 'StrongFont'; /* Strong Baseline 字型檔 */
+			/*font-family: 'cjkFonts ';
+			src: local("cjkFonts_allseto_v1.11"), url('./cjkFonts_allseto_v1.11.ttf');*/
+			font-size: 16px;
 		}
 		@font-face {
 			/* font-family: MyHelvetica; */
@@ -25,6 +28,11 @@
 			src: local("safont"), url('./safont.ttf'); /* 改成自己的 Simple & Medium Baseline 字型檔 */
 			/* src: local("cjkFonts_allseto_v1.11"), url(cjkFonts_allseto_v1.11.ttf); Strong Baseline 字型檔 */
 			font-weight: bold;
+		}
+		@font-face {
+			/*font-family: MyHelvetica;*/
+			font-family: StrongFont;
+			src: local("StrongFont"), url(StrongFont.ttf); /*StrongFont*/
 		}
 		a:visited { color: #0000EE; }
 		a:hover { color: #FF5151; }
@@ -35,10 +43,11 @@
 		.column1 { float: left; width: 20%; padding: 5px; height: 300px; }
 		.column2 { float: left; width: 20%; padding: 5px; height: 340px; }
 		.column3 { float: left; width: 20%; padding: 5px; height: 380px; }
-		.column5 { float: left; width: 20%; padding: 5px; height: 460px; }
+		.column5 { float: left; width: 20%; padding: 5px; height: 480px; }
 		.column8 { float: left; width: 20%; padding: 5px; height: 580px; }
 		.column10 { float: left; width: 20%; padding: 5px; height: 660px; }
 		.column11 { float: left; width: 20%; padding: 5px; height: 700px; }
+		.column12 { float: left; width: 20%; padding: 5px; height: 730px; }
 		.row:after {
 			content: "";
 			display: table;
@@ -797,7 +806,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="column11" style="text-align: center;">
+			<div class="column12" style="text-align: center;">
 				<h2>丹青引贈曹霸將軍</h2>
 				<h3>杜甫</h3>
 				<p>將軍魏武之子孫，於今為庶為清門。<br>
@@ -821,7 +830,7 @@
 					途窮反遭俗眼白，世上未有如公貧。<br>
 					但看古來盛名下，終日坎[土稟]纏其身。</p>
 			</div>
-			<div class="column11" style="text-align: center;">
+			<div class="column12" style="text-align: center;">
 				<h2>寄韓諫議</h2>
 				<h3>杜甫</h3>
 				<p>今我不樂思岳陽，身欲奮飛病在床。<br>
@@ -836,7 +845,7 @@
 					周南留滯古所惜，南極老人應壽昌。<br>
 					美人胡為隔秋水，焉得置之貢玉堂。</p>
 			</div>
-			<div class="column11" style="text-align: center;">
+			<div class="column12" style="text-align: center;">
 				<h2>古柏行</h2>
 				<h3>杜甫</h3>
 				<p>孔明廟前有老柏，柯如青銅根如石。<br>
@@ -852,7 +861,7 @@
 					苦心豈免容螻蟻，香葉終經宿鸞鳳。<br>
 					志士幽人草怨嗟，古來材大難為用。</p>
 			</div>
-			<div class="column11" style="text-align: center;">
+			<div class="column12" style="text-align: center;">
 				<h2>觀公孫大娘弟子舞劍器行·并序</h2>
 				<h3>杜甫</h3>
 				<p>大歷二年十月十九日，夔府別駕元持宅，見臨穎李十二娘舞劍器，壯其蔚跂，問其所師，曰：“餘公孫大娘弟子也。”開元三載，餘尚童稚，記於郾城觀公孫氏，舞劍器渾脫，瀏漓頓挫，獨出冠時，自高頭宜春梨園二伎坊內人洎外供奉，曉是舞者，聖文神武皇帝初，公孫一人而已。玉貌錦衣，況餘白首，今茲弟子，亦非盛顏。既辨其由來，知波瀾莫二，撫事慷慨，聊為《劍器行》。昔者吳人張旭，善草書帖，數常於鄴縣見公孫大娘舞西河劍器，自此草書長進，豪蕩感激，即公孫可知矣。<br>
@@ -870,7 +879,7 @@
 					玳瘬急管曲复終，樂極哀來月東出。<br>
 					老夫不知其所往，足繭荒山轉愁疾。</p>
 			</div>
-			<div class="column11" style="text-align: center;">
+			<div class="column12" style="text-align: center;">
 				<h2>石魚湖上醉歌·并序</h2>
 				<h3>元結</h3>
 				<p>漫叟以公田米釀酒，因休暇則載酒於湖上，時取一醉。<br>
